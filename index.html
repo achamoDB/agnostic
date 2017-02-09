@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head><meta charset="utf-8" /></head>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<script type="text/javascript" src="fb.js"></script>
+
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+
+<div id="container">
+	<div id="box1" class="fadein1" style="margin-top: 30px;">
+		<span class="maintitle">Social Robot</span>
+		<div style="text-align: right;"> 
+			<img src="LOGO-AGN-1.png" width="150px">
+		</div>
+		<br>
+		<div class="innertext">
+		Esta aplicación permite mostrar los beneficios que el mecanismo de <i>Social Login</i> puede ofrecer a su empresa, a través del enriquecimiento de datos y su procesamiento posterior, en la modalidad que denominamos <i>"Agnostic as a Service"</i>
+		</div>	
+	</div>
+	<div id="box2" class="fadein2" style="margin-top: 10px">
+		<div class="innertext">
+		En la aplicación mobile o sitio web de su empresa se puede incorporar un mecanismo de autenticación integrado, por ejemplo, a <span style="color: blue; font-weight: bold;">Facebook</span>
+		<div style="text-align: right;">
+			<span style="font-size: 14px;">Haga click aquí</span>&nbsp;&nbsp;&rarr;&nbsp;&nbsp;
+                        <fb:login-button scope="public_profile,email,user_likes,user_location" autologoutlink="true" onlogin="checkLoginState();">
+                        </fb:login-button>
+		<div id="status" class="hidden"></div>
+		</div>
+		</div>	
+	</div>
+	<div id="box3" class="hidden" style="margin-top: 10px">
+	</div>
+</div>
+
